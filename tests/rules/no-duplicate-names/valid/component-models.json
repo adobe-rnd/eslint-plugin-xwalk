@@ -1,0 +1,62 @@
+[
+  {
+    "id": "model-1",
+    "fields": [
+      {
+        "name": "text",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "image",
+        "component": "reference",
+        "label": "image"
+      },
+      {
+        "name": "text2",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "model-2",
+    "fields": [
+      {
+        "component": "tab",
+        "name": "tab1"
+      },
+      {
+        "component": "container",
+        "name": "container1",
+        "fields": [
+          {
+            "name": "text",
+            "component": "text",
+            "label": "Text"
+          },
+          {
+            "name": "image",
+            "component": "reference",
+            "label": "image"
+          }
+        ]
+      },
+      {
+        "component": "tab",
+        "name": "tab2"
+      },
+      {
+        "component": "container",
+        "name": "container2",
+        "fields": [
+          {
+            "name": "text2",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ]
+  }
+]

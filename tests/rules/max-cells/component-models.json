@@ -1,0 +1,214 @@
+[
+  {
+    "id": "model-with-2-fields-collapsed-to-one-cell",
+    "fields": [
+      {
+        "name": "link",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "linkText",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "model-with-4-fields",
+    "fields": [
+      {
+        "name": "text1",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "text2",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "text3",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "text4",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "model-with-4-fields-key-value-only",
+    "fields": [
+      {
+        "name": "text1",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "text2",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "text3",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "text4",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "model-with-6-fields-in-2-groups",
+    "fields": [
+      {
+        "name": "group1_text1",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "group1_text2",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "group2_text1",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "group2_text2",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "group2_text3",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "group2_text4",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "model-with-2-tabs-2-fields-each",
+    "fields": [
+      {
+        "name": "tab1",
+        "component": "tab",
+        "label": "Tab 1"
+      },
+      {
+        "name": "text1",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "text2",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "tab2",
+        "component": "tab",
+        "label": "Tab 2"
+      },
+      {
+        "name": "text3",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "text4",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
+    "id": "model-with-2-containers-2-fields-each",
+    "fields": [
+      {
+        "name": "container1",
+        "component": "container",
+        "fields": [
+          {
+            "name": "text1",
+            "component": "text",
+            "label": "Text"
+          },
+          {
+            "name": "text2",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
+      },
+      {
+        "name": "container2",
+        "component": "container",
+        "fields": [
+          {
+            "name": "text3",
+            "component": "text",
+            "label": "Text"
+          },
+          {
+            "name": "text4",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "model-with-4-fields-collapsed-to-one-cell",
+    "fields": [
+      {
+        "name": "media_image",
+        "component": "custom-picker",
+        "label": "Image"
+      },
+      {
+        "name": "media_imageMimeType",
+        "component": "custom-picker:mimetype",
+        "label": "Image Mime Type"
+      },
+      {
+        "name": "media_imageAlt",
+        "component": "text",
+        "label": "Image Alt"
+      },
+      {
+        "name": "media_link",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "media_linkText",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "media_linkTitle",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "media_linkType",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "model-1",
+    "fields": [
+      {
+        "name": "link",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "linkText",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "linkTitle",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "linkType",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "image",
+        "component": "reference",
+        "label": "image"
+      },
+      {
+        "name": "imageMimeType",
+        "component": "text",
+        "label": "mime type"
+      },
+      {
+        "name": "imageAlt",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  }
+]

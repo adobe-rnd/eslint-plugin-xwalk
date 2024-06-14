@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "title": "Blocks",
+      "id": "blocks",
+      "components": [
+        {
+          "title": "Key Value",
+          "id": "keyValue",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "model": "model-with-4-fields-key-value-only",
+                  "key-value": true
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

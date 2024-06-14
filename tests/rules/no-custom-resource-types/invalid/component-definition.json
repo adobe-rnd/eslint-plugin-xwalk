@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "title": "Blocks",
+      "id": "blocks",
+      "components": [
+        {
+          "title": "Key Value",
+          "id": "keyValue",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "myapp/components/navigation",
+                "template": {}
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "model-1",
+    "fields": [
+      {
+        "name": "linkText",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "imageMimeType",
+        "component": "text",
+        "label": "mime type"
+      },
+      {
+        "name": "imageAlt",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  }
+]
