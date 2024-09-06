@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-xwalk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Custom rules to validate aem-boilerplate-xwalk projects",
   "keywords": [
     "eslint",
