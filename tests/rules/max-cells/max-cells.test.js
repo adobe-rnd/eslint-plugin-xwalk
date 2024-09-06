@@ -38,28 +38,28 @@ ruleTester.run(
         filename: path.resolve(__dirname, 'component-models.json'),
         errors: [
           {
-            message: 'Avoid using more then 1 cells in a block, found 4',
+            message: 'Avoid using more than 1 cells in a block, found 4 for model-with-4-fields',
             line: 17,
             column: 4,
             endLine: 41,
             endColumn: 5
           },
           {
-            message: 'Avoid using more then 1 cells in a block, found 2',
+            message: 'Avoid using more than 1 cells in a block, found 2 for model-with-6-fields-in-2-groups',
             line: 67,
             column: 4,
             endLine: 101,
             endColumn: 5
           },
           {
-            message: 'Avoid using more then 1 cells in a block, found 4',
+            message: 'Avoid using more than 1 cells in a block, found 4 for model-with-2-tabs-2-fields-each',
             line: 102,
             column: 4,
             endLine: 136,
             endColumn: 5
           },
           {
-            message: 'Avoid using more then 1 cells in a block, found 4',
+            message: 'Avoid using more than 1 cells in a block, found 4 for model-with-2-containers-2-fields-each',
             line: 137,
             column: 4,
             endLine: 173,
