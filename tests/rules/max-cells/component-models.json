@@ -210,5 +210,50 @@
         "label": "Text"
       }
     ]
+  },
+  {
+    "id": "page-metadata",
+    "fields": [
+      {
+        "name": "seo",
+        "component": "container",
+        "fields": [
+          {
+            "name": "pageTitle",
+            "component": "text",
+            "label": "Page Title"
+          },
+          {
+            "name": "description",
+            "component": "text",
+            "label": "Description"
+          },
+          {
+            "name": "keywords",
+            "component": "text",
+            "label": "Keywords",
+            "multi": true
+          }
+        ]
+      },
+      {
+        "name": "social",
+        "component": "container",
+        "fields": [
+          {
+            "name": "og:title",
+            "component": "text",
+            "label": "Social Title",
+            "multi": true
+          },
+          {
+            "name": "og:image",
+            "component": "reference",
+            "label": "Social Image",
+            "multi": true
+          }
+        ]
+      }
+    ]
   }
 ]
