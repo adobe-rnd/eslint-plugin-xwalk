@@ -36,6 +36,16 @@
         "name": "abc-def_group",
         "component": "text",
         "label": "Text"
+      },
+      {
+        "name": "my:node",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my:node",
+        "component": "text",
+        "label": "Text"
       }
     ]
   }

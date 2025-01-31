@@ -28,11 +28,6 @@
         "label": "Text"
       },
       {
-        "name": "my:node",
-        "component": "text",
-        "label": "Text"
-      },
-      {
         "name": "my[node]",
         "component": "text",
         "label": "Text"
@@ -49,11 +44,6 @@
       },
       {
         "name": "my\\backslash",
-        "component": "text",
-        "label": "Text"
-      },
-      {
-        "name": ":quote",
         "component": "text",
         "label": "Text"
       },
@@ -94,6 +84,11 @@
       },
       {
         "name": "abc_group1_group2",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my:node:name",
         "component": "text",
         "label": "Text"
       }
