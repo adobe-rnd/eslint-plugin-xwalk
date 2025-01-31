@@ -92,7 +92,7 @@ describe('ast', () => {
     });
   });
 
-  it('returns an unknown location of a field in an unkown model', () => {
+  it('returns an unknown location of a field in an unknown model', () => {
     const ast = parse(
       `
       [
@@ -147,7 +147,7 @@ describe('ast', () => {
     });
   });
 
-  it('returns an unknown location of the resource type in an unkown component', () => {
+  it('returns an unknown location of the resource type in an unknown component', () => {
     const ast = parse(
       `
       {

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "model-1",
+    "fields": [
+      {
+        "name": "abc",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "abc-def",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "abc123",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "abc_def",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "abcText",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "abc-defText",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "abc-def_group",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my:node",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my:node",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  }
+]

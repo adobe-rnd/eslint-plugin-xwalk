@@ -1,0 +1,97 @@
+[
+  {
+    "id": "model-1",
+    "fields": [
+      {
+        "name": "my node",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "  leadingSpace",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "trailingSpace ",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "1node",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my/node",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my[node]",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my|node",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my*node",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my\\backslash",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": ".onedot",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "node\u0000name",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "node\tname",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "node\nname",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "🎉",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "_grouping",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "abc_group1_group2",
+        "component": "text",
+        "label": "Text"
+      },
+      {
+        "name": "my:node:name",
+        "component": "text",
+        "label": "Text"
+      }
+    ]
+  }
+]
