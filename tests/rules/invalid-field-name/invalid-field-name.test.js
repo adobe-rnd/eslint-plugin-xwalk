@@ -199,7 +199,7 @@ ruleTester.run(
           {
             ruleId: 'invalid-field-name',
             severity: 1,
-            message: 'Avoid using more than one _ characters in field name "abc_group1_group2"',
+            message: 'Avoid using more than one _ characters in field "abc_group1_group2"',
             line: 86,
             column: 10,
             nodeType: null,
@@ -210,7 +210,7 @@ ruleTester.run(
           {
             ruleId: 'invalid-field-name',
             severity: 1,
-            message: 'Avoid using more than one : characters in field name "my:node:name"',
+            message: 'Avoid using more than one : characters in field "my:node:name"',
             line: 91,
             column: 10,
             nodeType: null,
