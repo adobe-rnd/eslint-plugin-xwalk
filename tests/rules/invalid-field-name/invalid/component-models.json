@@ -91,6 +91,32 @@
         "name": "my:node:name",
         "component": "text",
         "label": "Text"
+      },
+      {
+        "name": "container",
+        "component": "container",
+        "label": "Container",
+        "fields": [    
+          {
+            "name": "my/invalid/node",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
+      },
+
+      {
+        "name": "container",
+        "component": "container",
+        "label": "Container",
+        "multi": true,
+        "fields": [    
+          {
+            "name": "my/invalid/node",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
       }
     ]
   }

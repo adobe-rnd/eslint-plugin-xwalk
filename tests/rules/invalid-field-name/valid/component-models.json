@@ -38,14 +38,29 @@
         "label": "Text"
       },
       {
-        "name": "my:node",
-        "component": "text",
-        "label": "Text"
+        "name": "container",
+        "component": "container",
+        "label": "Container",
+        "fields": [    
+          {
+            "name": "my:node",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
       },
       {
-        "name": "my:node",
-        "component": "text",
-        "label": "Text"
+        "name": "container-mulit",
+        "component": "container",
+        "label": "Container Multi",
+        "multi": true,
+        "fields": [    
+          {
+            "name": "my:childNode",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
       }
     ]
   }
