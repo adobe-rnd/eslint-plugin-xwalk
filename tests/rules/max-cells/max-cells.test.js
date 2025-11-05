@@ -64,6 +64,13 @@ ruleTester.run(
             column: 4,
             endLine: 173,
             endColumn: 5
+          },
+          {
+            message: 'Avoid using more than 1 cells in a block, found 2 for model-with-2-container-multi-with-2-fields-each',
+            line: 259,
+            column: 4,
+            endLine: 297,
+            endColumn: 5
           }
         ]
       }

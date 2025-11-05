@@ -16,6 +16,31 @@
         "name": "imageAlt",
         "component": "text",
         "label": "Text"
+      },
+      {
+        "name": "cta",
+        "component": "container",
+        "label": "Container",
+        "fields": [
+          {
+            "name": "ctaText",
+            "component": "text",
+            "label": "CTA Text"
+          }
+        ]
+      },
+      {
+        "name": "container-multi",
+        "component": "container",
+        "label": "Container Multi",
+        "multi": true,
+        "fields": [
+          {
+            "name": "ctaText",
+            "component": "text",
+            "label": "CTA Text"
+          }
+        ]
       }
     ]
   }

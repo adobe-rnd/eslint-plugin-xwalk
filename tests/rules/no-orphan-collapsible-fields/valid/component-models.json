@@ -23,19 +23,27 @@
         "label": "Text"
       },
       {
-        "name": "image",
-        "component": "reference",
-        "label": "image"
-      },
-      {
-        "name": "imageMimeType",
-        "component": "text",
-        "label": "mime type"
-      },
-      {
-        "name": "imageAlt",
-        "component": "text",
-        "label": "Text"
+        "name": "images",
+        "component": "container",
+        "label": "Container",
+        "multi": true,
+        "fields": [
+          {
+            "name": "image",
+            "component": "reference",
+            "label": "image"
+          },
+          {
+            "name": "imageMimeType",
+            "component": "text",
+            "label": "mime type"
+          },
+          {
+            "name": "imageAlt",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
       }
     ]
   }

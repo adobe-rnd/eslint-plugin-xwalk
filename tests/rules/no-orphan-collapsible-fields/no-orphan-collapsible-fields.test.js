@@ -41,6 +41,20 @@ ruleTester.run(
             column: 10,
             endLine: 16,
             endColumn: 28
+          },
+          {
+            message: 'Avoid using orphan collapsible field names.',
+            line: 26,
+            column: 14,
+            endLine: 26,
+            endColumn: 31
+          },
+          {
+            message: 'Avoid using orphan collapsible field names.',
+            line: 39,
+            column: 14,
+            endLine: 39,
+            endColumn: 31
           }
         ]
       }
