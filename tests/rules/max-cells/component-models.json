@@ -255,5 +255,44 @@
         ]
       }
     ]
+  },
+  {
+    "id": "model-with-2-container-multi-with-2-fields-each",
+    "fields": [
+      {
+        "name": "container1",
+        "component": "container",
+        "multi": true,
+        "fields": [
+          {
+            "name": "text1",
+            "component": "text",
+            "label": "Text"
+          },
+          {
+            "name": "text2",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
+      },
+      {
+        "name": "container2",
+        "component": "container",
+        "multi": true,
+        "fields": [
+          {
+            "name": "text3",
+            "component": "text",
+            "label": "Text"
+          },
+          {
+            "name": "text4",
+            "component": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ]
   }
 ]
